@@ -1,0 +1,13 @@
+{
+  "policy_number": "FIA-2026-4419283",
+  "effective_dates": "01/01/2026 - 01/01/2027",
+  "attachments": ["damage_photos.zip", "tow_invoice.pdf"],
+  "date_of_loss": "07/30/2026",
+  "time_of_loss": "21:20",
+  "insured": {"name": "Lisa Anne Patterson", "primary_phone": "303-555-0456"},
+  "contact": {"name": "James Patterson", "primary_phone": "303-555-0457"},
+  "loss": {"location_street": "Colorado State Highway 119, Mile Marker 42", "location_city_state_zip": "Nederland, CO 80466", "description": "A large elk entered the roadway and struck the vehicle."},
+  "insured_vehicle": {"body": "SUV", "vin": "1C4RJFBG0PC567890", "estimate_amount": 14200},
+  "other_vehicle": {"non_vehicle": true, "property_description": "Wildlife - Elk"},
+  "injured": [{"name": "Lisa Patterson", "extent": "Minor abrasions"}]
+}

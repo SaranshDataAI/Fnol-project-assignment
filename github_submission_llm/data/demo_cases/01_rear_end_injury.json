@@ -1,0 +1,13 @@
+{
+  "policy_number": "SF-2026-8847291",
+  "effective_dates": "01/01/2026 - 01/01/2027",
+  "attachments": ["police_report.pdf", "damage_photos.zip"],
+  "date_of_loss": "08/02/2026",
+  "time_of_loss": "17:45",
+  "insured": {"name": "Robert James Miller", "primary_phone": "217-555-0143"},
+  "contact": {"name": "Robert James Miller", "primary_phone": "217-555-0143"},
+  "loss": {"location_street": "Wabash Ave and Grand Ave", "location_city_state_zip": "Springfield, IL 62704", "description": "Vehicle behind collided with the insured's rear bumper."},
+  "insured_vehicle": {"body": "SUV", "vin": "5J6RW2H89NA004721", "estimate_amount": 4200},
+  "other_vehicle": {"driver_name": "Sarah Lynn Thompson"},
+  "injured": [{"name": "Robert Miller", "extent": "Minor neck stiffness"}]
+}

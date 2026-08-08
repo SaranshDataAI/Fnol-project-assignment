@@ -1,0 +1,13 @@
+{
+  "policy_number": "PRO-2026-9918274",
+  "effective_dates": "01/01/2026 - 01/01/2027",
+  "attachments": ["police_report.pdf", "damage_photos.zip", "stolen_property_list.pdf"],
+  "date_of_loss": "08/04/2026",
+  "time_of_loss": "23:00",
+  "insured": {"name": "Daniel Robert Kim", "primary_phone": "323-555-0147"},
+  "contact": {"name": "Daniel Robert Kim", "primary_phone": "323-555-0147"},
+  "loss": {"location_street": "892 Sunset Boulevard", "location_city_state_zip": "Los Angeles, CA 90028", "description": "Vehicle was vandalized and personal property was stolen from its interior."},
+  "insured_vehicle": {"body": "Sedan", "vin": "5NPEJ4J22MH678901", "estimate_amount": 3200},
+  "other_vehicle": {"non_vehicle": true, "property_description": "Personal property stolen"},
+  "injured": []
+}

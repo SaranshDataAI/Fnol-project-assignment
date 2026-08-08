@@ -1,0 +1,13 @@
+{
+  "policy_number": "LM-2026-7729104",
+  "effective_dates": "01/01/2026 - 01/01/2027",
+  "attachments": ["police_report.pdf", "security_camera_request.pdf"],
+  "date_of_loss": "08/05/2026",
+  "time_of_loss": "02:30",
+  "insured": {"name": "Kenneth Arthur Brooks", "primary_phone": "212-555-0192"},
+  "contact": {"name": "Kenneth Arthur Brooks", "primary_phone": "212-555-0192"},
+  "loss": {"location_street": "334 West 45th Street", "location_city_state_zip": "New York, NY 10036", "description": "Vehicle was parked overnight and damaged by an unknown vehicle that fled the scene."},
+  "insured_vehicle": {"body": "Wagon", "vin": "4S4BSANC9K3201234", "estimate_amount": 5600},
+  "other_vehicle": {"driver_name": "Unknown", "property_description": "Unknown vehicle"},
+  "injured": []
+}

@@ -1,0 +1,13 @@
+{
+  "policy_number": "DEMO-HIGH-001",
+  "effective_dates": "01/01/2026 - 01/01/2027",
+  "attachments": ["estimate.pdf", "photos.zip"],
+  "date_of_loss": "08/06/2026",
+  "time_of_loss": "13:30",
+  "insured": {"name": "Taylor Brooks", "primary_phone": "555-0120"},
+  "contact": {"name": "Taylor Brooks", "primary_phone": "555-0120"},
+  "loss": {"location_street": "200 Lake Drive", "location_city_state_zip": "Chicago, IL 60601", "description": "Vehicle struck a guardrail during heavy rain; no injuries reported."},
+  "insured_vehicle": {"body": "SUV", "vin": "DEMOHIGHVIN0001", "estimate_amount": 32000},
+  "other_vehicle": {"non_vehicle": true, "property_description": "Guardrail"},
+  "injured": []
+}

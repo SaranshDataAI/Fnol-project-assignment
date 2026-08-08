@@ -1,0 +1,14 @@
+{
+  "policy_number": "ALS-PA-9928471",
+  "effective_dates": "01/01/2026 - 01/01/2027",
+  "attachments": ["police_report.pdf", "scene_photos.zip"],
+  "date_of_loss": "07/28/2026",
+  "time_of_loss": "08:15",
+  "insured": {"name": "Jennifer Marie Davidson", "primary_phone": "512-555-0381"},
+  "contact": {"name": "Michael Davidson", "primary_phone": "512-555-0382"},
+  "loss": {"location_street": "I-35 Northbound near Exit 234", "location_city_state_zip": "Austin, TX 78753", "description": "Three-vehicle chain reaction; airbags deployed."},
+  "insured_vehicle": {"body": "Sedan", "vin": "4T1C11AK0LU901234", "estimate_amount": 18500},
+  "other_vehicle_1": {"driver_name": "Carlos Eduardo Martinez"},
+  "other_vehicle_2": {"driver_name": "Amanda Rose Wilson"},
+  "injured": [{"name": "Jennifer Davidson", "extent": "Whiplash"}, {"name": "Sophia Davidson", "extent": "Laceration"}]
+}

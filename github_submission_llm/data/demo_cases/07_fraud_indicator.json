@@ -1,0 +1,13 @@
+{
+  "policy_number": "DEMO-FRAUD-001",
+  "effective_dates": "01/01/2026 - 01/01/2027",
+  "attachments": ["statement.pdf"],
+  "date_of_loss": "08/06/2026",
+  "time_of_loss": "11:00",
+  "insured": {"name": "Morgan Lee", "primary_phone": "555-0110"},
+  "contact": {"name": "Morgan Lee", "primary_phone": "555-0110"},
+  "loss": {"location_street": "100 Market Street", "location_city_state_zip": "Denver, CO 80202", "description": "Witness statements are inconsistent and indicate a potentially staged collision."},
+  "insured_vehicle": {"body": "Sedan", "vin": "DEMOFRAUDVIN001", "estimate_amount": 9000},
+  "other_vehicle": {"driver_name": "Jordan Lee"},
+  "injured": []
+}

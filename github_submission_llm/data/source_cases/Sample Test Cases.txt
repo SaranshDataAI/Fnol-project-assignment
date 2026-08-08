@@ -1,0 +1,513 @@
+Case 1: Standard Rear-End Collision (Single Vehicle Damage)
+JSON
+{
+  "date_of_loss": "08/02/2026",
+  "time_of_loss": "17:45",
+  "carrier": "State Farm",
+  "policy_number": "SF-2026-8847291",
+  "line_of_business": "Personal Auto",
+  "insured": {
+    "name": "Robert James Miller",
+    "dob": "03/15/1985",
+    "marital_status": "Married",
+    "mailing_address": "4521 Oakwood Drive, Springfield, IL 62704",
+    "primary_phone": "217-555-0143",
+    "primary_email": "robert.miller@email.com"
+  },
+  "contact": {
+    "name": "Robert James Miller",
+    "same_as_insured": true,
+    "when_to_contact": "Evenings after 6 PM"
+  },
+  "loss": {
+    "police_contacted": true,
+    "report_number": "SPD-2026-084291",
+    "location_street": "Intersection of Wabash Ave and Grand Ave",
+    "location_city_state_zip": "Springfield, IL 62704",
+    "description": "Insured vehicle stopped at red light. Vehicle behind failed to stop and collided with rear bumper. No airbag deployment. Traffic was moderate. Weather was clear and dry."
+  },
+  "insured_vehicle": {
+    "year": 2022,
+    "make": "Honda",
+    "model": "CR-V",
+    "vin": "5J6RW2H89NA004721",
+    "plate": "IL 8492 XM",
+    "state": "IL",
+    "body": "SUV",
+    "owner_same_as_insured": true,
+    "driver_same_as_owner": true,
+    "used_with_permission": "Y",
+    "purpose_of_use": "Commuting",
+    "relation_to_insured": "Self",
+    "damage_description": "Rear bumper cracked and dented. Tailgate misaligned. Backup sensors damaged.",
+    "estimate_amount": 4200.00,
+    "when_seen": "08/03/2026 9:00 AM",
+    "where_seen": "Springfield Auto Body, 1200 Industrial Dr"
+  },
+  "child_seat": {
+    "installed": "Y",
+    "in_use": "N",
+    "sustained_loss": "N"
+  },
+  "other_vehicle": {
+    "non_vehicle": false,
+    "year": 2019,
+    "make": "Ford",
+    "model": "F-150",
+    "vin": "1FTFW1EF7KFA90123",
+    "plate": "IL 5512 AB",
+    "driver_name": "Sarah Lynn Thompson",
+    "driver_address": "891 Pine Street, Springfield, IL 62701",
+    "driver_license": "T559-2817-9023",
+    "driver_dob": "11/22/1990",
+    "damage_description": "Front bumper damaged, grille cracked, hood dented",
+    "estimate_amount": 3500.00,
+    "other_insurance": "Y",
+    "other_carrier": "Progressive",
+    "other_policy": "PRO-778291-IL"
+  },
+  "injured": [
+    {
+      "name": "Robert Miller",
+      "address": "4521 Oakwood Drive, Springfield, IL 62704",
+      "phone": "217-555-0143",
+      "age": 41,
+      "extent": "Minor neck stiffness, declined ambulance, visited ER later for evaluation"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "David Chen",
+      "address": "1200 Wabash Ave, Springfield, IL 62704",
+      "phone": "217-555-0298",
+      "location": "Pedestrian on sidewalk"
+    }
+  ],
+  "reported_by": "Robert Miller",
+  "reported_to": "State Farm Claims Department"
+}
+Case 2: Multi-Vehicle Highway Accident with Injuries
+JSON
+{
+  "date_of_loss": "07/28/2026",
+  "time_of_loss": "08:15",
+  "carrier": "Allstate",
+  "policy_number": "ALS-PA-9928471",
+  "line_of_business": "Personal Auto",
+  "insured": {
+    "name": "Jennifer Marie Davidson",
+    "dob": "06/10/1978",
+    "marital_status": "Single",
+    "mailing_address": "7824 Riverside Parkway, Austin, TX 78701",
+    "primary_phone": "512-555-0381",
+    "primary_email": "jennifer.davidson@company.net"
+  },
+  "contact": {
+    "name": "Michael Davidson",
+    "same_as_insured": false,
+    "contact_address": "7824 Riverside Parkway, Austin, TX 78701",
+    "primary_phone": "512-555-0382",
+    "when_to_contact": "Anytime"
+  },
+  "loss": {
+    "police_contacted": true,
+    "report_number": "APD-2026-728491",
+    "location_street": "I-35 Northbound near Exit 234",
+    "location_city_state_zip": "Austin, TX 78753",
+    "description": "Heavy traffic slowdown. Insured vehicle struck from behind by Vehicle 2, pushing insured into Vehicle 3 ahead. Three vehicle chain reaction. Airbags deployed in insured vehicle. Fire department responded for fluid leak."
+  },
+  "insured_vehicle": {
+    "year": 2020,
+    "make": "Toyota",
+    "model": "Camry",
+    "vin": "4T1C11AK0LU901234",
+    "plate": "TX B89241",
+    "state": "TX",
+    "body": "Sedan",
+    "owner_same_as_insured": true,
+    "driver_same_as_owner": true,
+    "used_with_permission": "Y",
+    "purpose_of_use": "Commuting to work",
+    "relation_to_insured": "Self",
+    "damage_description": "Front end crushed, rear bumper and trunk damage, airbags deployed, windshield cracked, radiator leaking",
+    "estimate_amount": 18500.00,
+    "when_seen": "07/29/2026 10:00 AM",
+    "where_seen": "Austin Collision Center, 4500 N Lamar Blvd"
+  },
+  "child_seat": {
+    "installed": "Y",
+    "in_use": "Y",
+    "sustained_loss": "Y"
+  },
+  "other_vehicle_1": {
+    "non_vehicle": false,
+    "year": 2018,
+    "make": "Chevrolet",
+    "model": "Silverado",
+    "vin": "3GCUKREC0JG123456",
+    "plate": "TX C44192",
+    "driver_name": "Carlos Eduardo Martinez",
+    "driver_address": "4456 East 7th Street, Austin, TX 78702",
+    "driver_license": "TX-8492716",
+    "driver_dob": "09/03/1982",
+    "damage_description": "Front end severe damage, bumper destroyed, hood crumpled",
+    "estimate_amount": 12000.00,
+    "other_insurance": "Y",
+    "other_carrier": "Geico",
+    "other_policy": "GE-998472-TX"
+  },
+  "other_vehicle_2": {
+    "non_vehicle": false,
+    "year": 2021,
+    "make": "BMW",
+    "model": "X3",
+    "vin": "5UXTY3C09M9S78901",
+    "plate": "TX D88231",
+    "driver_name": "Amanda Rose Wilson",
+    "driver_address": "9900 Great Hills Trail, Austin, TX 78759",
+    "driver_license": "TX-7719203",
+    "driver_dob": "04/18/1992",
+    "damage_description": "Rear bumper and quarter panel damage, exhaust system damaged",
+    "estimate_amount": 7800.00,
+    "other_insurance": "Y",
+    "other_carrier": "USAA",
+    "other_policy": "US-442891-TX"
+  },
+  "injured": [
+    {
+      "name": "Jennifer Davidson",
+      "address": "7824 Riverside Parkway, Austin, TX 78701",
+      "phone": "512-555-0381",
+      "age": 48,
+      "extent": "Chest bruising from airbag, whiplash, transported to St. David's Medical Center via ambulance"
+    },
+    {
+      "name": "Sophia Davidson",
+      "address": "7824 Riverside Parkway, Austin, TX 78701",
+      "phone": "512-555-0381",
+      "age": 8,
+      "extent": "Minor laceration to forehead, evaluated at scene, transported with mother"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Transit Bus Driver - Route 7",
+      "address": "Austin Metro Transit Authority",
+      "phone": "512-555-0100",
+      "location": "Bus #4412 in adjacent lane"
+    }
+  ],
+  "reported_by": "Jennifer Davidson",
+  "reported_to": "Allstate 1-800-ALLSTATE"
+}
+Case 3: Hit-and-Run / Parked Vehicle Damage
+JSON
+{
+  "date_of_loss": "08/05/2026",
+  "time_of_loss": "02:30",
+  "carrier": "Liberty Mutual",
+  "policy_number": "LM-2026-7729104",
+  "line_of_business": "Personal Auto",
+  "insured": {
+    "name": "Kenneth Arthur Brooks",
+    "dob": "12/03/1965",
+    "marital_status": "Divorced",
+    "mailing_address": "334 West 45th Street, New York, NY 10036",
+    "primary_phone": "212-555-0192",
+    "primary_email": "k.brooks.nyc@email.com"
+  },
+  "contact": {
+    "name": "Kenneth Arthur Brooks",
+    "same_as_insured": true,
+    "when_to_contact": "Business hours 9 AM - 5 PM"
+  },
+  "loss": {
+    "police_contacted": true,
+    "report_number": "NYPD-2026-080592",
+    "location_street": "334 West 45th Street (parked at curb)",
+    "location_city_state_zip": "New York, NY 10036",
+    "description": "Vehicle was legally parked on street overnight. Owner discovered damage at 7:00 AM. White paint transfer on driver's side. No note left. Neighbor security camera may have footage. No suspect vehicle identified."
+  },
+  "insured_vehicle": {
+    "year": 2019,
+    "make": "Subaru",
+    "model": "Outback",
+    "vin": "4S4BSANC9K3201234",
+    "plate": "NY JEK-8492",
+    "state": "NY",
+    "body": "Wagon",
+    "owner_same_as_insured": true,
+    "driver_same_as_owner": true,
+    "used_with_permission": "Y",
+    "purpose_of_use": "Personal",
+    "relation_to_insured": "Self",
+    "damage_description": "Driver side door dented and scratched, side mirror torn off, window cracked, white paint transfer visible",
+    "estimate_amount": 5600.00,
+    "when_seen": "08/05/2026 9:00 AM",
+    "where_seen": "Street parking location, 334 W 45th St"
+  },
+  "child_seat": {
+    "installed": "N",
+    "in_use": "N",
+    "sustained_loss": "N"
+  },
+  "other_vehicle": {
+    "non_vehicle": false,
+    "year": null,
+    "make": "Unknown",
+    "model": "Unknown",
+    "vin": null,
+    "plate": "Unknown - fled scene",
+    "driver_name": "Unknown",
+    "driver_address": "Unknown",
+    "driver_license": null,
+    "driver_dob": null,
+    "damage_description": "White paint transfer suggests light colored vehicle. No other info.",
+    "estimate_amount": null,
+    "other_insurance": "N",
+    "other_carrier": null,
+    "other_policy": null
+  },
+  "injured": [],
+  "witnesses": [
+    {
+      "name": "Maria Santos",
+      "address": "336 West 45th Street, New York, NY 10036",
+      "phone": "212-555-0284",
+      "location": "Neighbor, heard impact around 2:30 AM"
+    }
+  ],
+  "reported_by": "Kenneth Brooks",
+  "reported_to": "Liberty Mutual Claims"
+}
+Case 4: Single Vehicle - Road Hazard / Animal Strike
+JSON
+{
+  "date_of_loss": "07/30/2026",
+  "time_of_loss": "21:20",
+  "carrier": "Farmers Insurance",
+  "policy_number": "FIA-2026-4419283",
+  "line_of_business": "Personal Auto",
+  "insured": {
+    "name": "Lisa Anne Patterson",
+    "dob": "09/22/1990",
+    "marital_status": "Married",
+    "mailing_address": "15678 Mountain View Road, Boulder, CO 80302",
+    "primary_phone": "303-555-0456",
+    "primary_email": "lisa.patterson@mountainmail.com"
+  },
+  "contact": {
+    "name": "James Patterson",
+    "same_as_insured": false,
+    "contact_address": "15678 Mountain View Road, Boulder, CO 80302",
+    "primary_phone": "303-555-0457",
+    "when_to_contact": "Evenings"
+  },
+  "loss": {
+    "police_contacted": false,
+    "report_number": null,
+    "location_street": "Colorado State Highway 119, Mile Marker 42",
+    "location_city_state_zip": "Nederland, CO 80466",
+    "description": "Driving at 45 MPH when large elk entered roadway from right side. Unable to avoid collision. Elk struck front right corner and rolled over hood. Vehicle came to controlled stop on shoulder. Elk left scene (appeared uninjured). No other vehicles involved."
+  },
+  "insured_vehicle": {
+    "year": 2023,
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "vin": "1C4RJFBG0PC567890",
+    "plate": "CO BSK-772",
+    "state": "CO",
+    "body": "SUV",
+    "owner_same_as_insured": true,
+    "driver_same_as_owner": true,
+    "used_with_permission": "Y",
+    "purpose_of_use": "Personal trip",
+    "relation_to_insured": "Self",
+    "damage_description": "Front right fender crushed, headlight destroyed, hood dented and latch damaged, windshield cracked, A-pillar dented, radiator punctured, fluid leaking",
+    "estimate_amount": 14200.00,
+    "when_seen": "07/31/2026 8:00 AM",
+    "where_seen": "Boulder Jeep Service, 2995 28th Street"
+  },
+  "child_seat": {
+    "installed": "N",
+    "in_use": "N",
+    "sustained_loss": "N"
+  },
+  "other_vehicle": {
+    "non_vehicle": true,
+    "property_description": "Wildlife - Elk (Cervus canadensis)",
+    "damage_description": "Elk appeared uninjured and left scene. No property owner identified.",
+    "other_insurance": "N"
+  },
+  "injured": [
+    {
+      "name": "Lisa Patterson",
+      "address": "15678 Mountain View Road, Boulder, CO 80302",
+      "phone": "303-555-0456",
+      "age": 35,
+      "extent": "Minor abrasions from seatbelt, shaken but declined medical treatment at scene"
+    }
+  ],
+  "witnesses": [],
+  "reported_by": "Lisa Patterson",
+  "reported_to": "Farmers 1-800-435-7764"
+}
+Case 5: Commercial/Business Use - Delivery Vehicle
+JSON
+{
+  "date_of_loss": "08/01/2026",
+  "time_of_loss": "14:10",
+  "carrier": "Nationwide",
+  "policy_number": "NW-CA-8829104",
+  "line_of_business": "Commercial Auto",
+  "insured": {
+    "name": "QuickBite Catering LLC",
+    "dob": null,
+    "fein": "84-2910487",
+    "marital_status": "N/A",
+    "mailing_address": "4500 Commerce Parkway, Suite 200, Atlanta, GA 30336",
+    "primary_phone": "404-555-0291",
+    "primary_email": "claims@quickbitecatering.com"
+  },
+  "contact": {
+    "name": "Thomas Wright",
+    "same_as_insured": false,
+    "contact_address": "4500 Commerce Parkway, Suite 200, Atlanta, GA 30336",
+    "primary_phone": "404-555-0292",
+    "when_to_contact": "Business hours"
+  },
+  "loss": {
+    "police_contacted": true,
+    "report_number": "APD-2026-080145",
+    "location_street": "Peachtree Street NE and 14th Street NE",
+    "location_city_state_zip": "Atlanta, GA 30309",
+    "description": "Delivery driver making right turn when pedestrian stepped into crosswalk against signal. Driver braked but front bumper made contact with pedestrian's leg. Low speed impact approximately 8 MPH. Pedestrian fell to ground. Driver remained at scene and rendered aid."
+  },
+  "insured_vehicle": {
+    "year": 2021,
+    "make": "Ford",
+    "model": "Transit",
+    "vin": "1FTBW2XM0MKA12345",
+    "plate": "GA CM-8492",
+    "state": "GA",
+    "body": "Van",
+    "owner_same_as_insured": true,
+    "driver_same_as_owner": false,
+    "driver_name": "Darius Jamal Coleman",
+    "driver_address": "2890 Martin Luther King Jr Drive, Atlanta, GA 30311",
+    "driver_license": "GA-9928471",
+    "driver_dob": "05/14/1988",
+    "used_with_permission": "Y",
+    "purpose_of_use": "Employee - Food delivery",
+    "relation_to_insured": "Employee",
+    "damage_description": "Front bumper scuffed, minor dent to right front fender, headlight bezel cracked",
+    "estimate_amount": 1850.00,
+    "when_seen": "08/01/2026 4:30 PM",
+    "where_seen": "QuickBite Catering fleet yard, 4500 Commerce Parkway"
+  },
+  "child_seat": {
+    "installed": "N",
+    "in_use": "N",
+    "sustained_loss": "N"
+  },
+  "other_vehicle": {
+    "non_vehicle": true,
+    "property_description": "Pedestrian - Human",
+    "damage_description": "Pedestrian injury - see injured section",
+    "other_insurance": "N"
+  },
+  "injured": [
+    {
+      "name": "Eleanor Grace Vincent",
+      "address": "1200 Peachtree Walk NE, Atlanta, GA 30309",
+      "phone": "404-555-0338",
+      "age": 67,
+      "extent": "Right leg contusion and possible fracture, transported to Piedmont Hospital via ambulance"
+    }
+  ],
+  "witnesses": [
+    {
+      "name": "Marcus Johnson",
+      "address": "1450 Peachtree Street, Atlanta, GA 30309",
+      "phone": "404-555-0199",
+      "location": "Pedestrian on opposite corner"
+    },
+    {
+      "name": "Rachel Kim",
+      "address": "1400 14th Street NE, Atlanta, GA 30309",
+      "phone": "404-555-0277",
+      "location": "Driver of vehicle behind"
+    }
+  ],
+  "reported_by": "Thomas Wright (Operations Manager)",
+  "reported_to": "Nationwide Commercial Claims"
+}
+Case 6: Vandalism/Theft with Property Damage
+JSON
+{
+  "date_of_loss": "08/04/2026",
+  "time_of_loss": "23:00",
+  "carrier": "Progressive",
+  "policy_number": "PRO-2026-9918274",
+  "line_of_business": "Personal Auto",
+  "insured": {
+    "name": "Daniel Robert Kim",
+    "dob": "01/18/1988",
+    "marital_status": "Single",
+    "mailing_address": "892 Sunset Boulevard, Los Angeles, CA 90028",
+    "primary_phone": "323-555-0147",
+    "primary_email": "daniel.kim.la@email.com"
+  },
+  "contact": {
+    "name": "Daniel Robert Kim",
+    "same_as_insured": true,
+    "when_to_contact": "After 10 AM"
+  },
+  "loss": {
+    "police_contacted": true,
+    "report_number": "LAPD-2026-080492",
+    "location_street": "892 Sunset Boulevard (residential driveway)",
+    "location_city_state_zip": "Los Angeles, CA 90028",
+    "description": "Vehicle parked in driveway overnight. Discovered at 7:30 AM that rear passenger window was smashed. Interior ransacked. GPS unit and backpack stolen from back seat. Dashboard and center console damaged during break-in. No suspect identified. Security camera did not capture event."
+  },
+  "insured_vehicle": {
+    "year": 2021,
+    "make": "Hyundai",
+    "model": "Sonata",
+    "vin": "5NPEJ4J22MH678901",
+    "plate": "CA 8TRK492",
+    "state": "CA",
+    "body": "Sedan",
+    "owner_same_as_insured": true,
+    "driver_same_as_owner": true,
+    "used_with_permission": "Y",
+    "purpose_of_use": "Personal",
+    "relation_to_insured": "Self",
+    "damage_description": "Rear passenger window shattered, door panel scratched, dashboard trim broken, center console damaged, interior scratches on leather seats",
+    "estimate_amount": 3200.00,
+    "when_seen": "08/05/2026 11:00 AM",
+    "where_seen": "Sunset Auto Glass and Body, 1200 Vine Street"
+  },
+  "child_seat": {
+    "installed": "N",
+    "in_use": "N",
+    "sustained_loss": "N"
+  },
+  "other_vehicle": {
+    "non_vehicle": true,
+    "property_description": "Personal property stolen: Garmin GPS unit ($280), Laptop backpack with contents ($450), Sunglasses ($180)",
+    "damage_description": "Theft of personal property from vehicle interior",
+    "other_insurance": "N"
+  },
+  "injured": [],
+  "witnesses": [
+    {
+      "name": "Neighbor - Unit 4B",
+      "address": "892 Sunset Blvd Apt 4B, Los Angeles, CA 90028",
+      "phone": "323-555-0291",
+      "location": "Heard glass break around 11 PM, saw dark sedan speed away"
+    }
+  ],
+  "reported_by": "Daniel Kim",
+  "reported_to": "Progressive Online Claims"
+}

@@ -1,0 +1,13 @@
+{
+  "policy_number": "NW-CA-8829104",
+  "effective_dates": "01/01/2026 - 01/01/2027",
+  "attachments": ["police_report.pdf", "driver_statement.pdf"],
+  "date_of_loss": "08/01/2026",
+  "time_of_loss": "14:10",
+  "insured": {"name": "QuickBite Catering LLC", "primary_phone": "404-555-0291"},
+  "contact": {"name": "Thomas Wright", "primary_phone": "404-555-0292"},
+  "loss": {"location_street": "Peachtree Street NE and 14th Street NE", "location_city_state_zip": "Atlanta, GA 30309", "description": "Delivery vehicle made low-speed contact with a pedestrian."},
+  "insured_vehicle": {"body": "Van", "vin": "1FTBW2XM0MKA12345", "estimate_amount": 1850},
+  "other_vehicle": {"non_vehicle": true, "property_description": "Pedestrian - Human"},
+  "injured": [{"name": "Eleanor Grace Vincent", "extent": "Possible leg fracture"}]
+}
