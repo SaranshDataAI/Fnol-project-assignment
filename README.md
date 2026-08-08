@@ -2,7 +2,7 @@
 
 ## Optional Groq LLM extraction
 
-This version LLM extraction layer for messy, free-form FNOL text. The LLM does **not** route claims: Python validation and deterministic routing rules remain the final authority.
+This version has LLM extraction layer for messy, free-form FNOL text. The LLM does **not** route claims: Python validation and deterministic routing rules remain the final authority.
 
 1. Copy `.env.example` to `.env`.
 2. Insert your Groq API key into `.env`. It is ignored by Git.
