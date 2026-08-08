@@ -4,8 +4,8 @@
 
 This version has LLM extraction layer for messy, free-form FNOL text. The LLM does **not** route claims: Python validation and deterministic routing rules remain the final authority.
 
-1. Copy `.env.example` to `.env`.
-2. Insert your Groq API key into `.env`. It is ignored by Git.
+1. please make a  `.env file`. 
+2. Insert your Groq API key into `.env`.
 3. Install dependencies and use LLM extraction when needed:
 
 ```powershell
